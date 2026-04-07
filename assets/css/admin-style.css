@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+
+
+/* お祝いカード本体 */
+.praise-card {
+    background: #ffffff;
+    border-radius: 12px;
+    border-left: 6px solid #ffad1f;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    animation: slideIn 0.5s ease-out;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* メッセージ部分 */
+.praise-card-title {
+    font-size: 1.2em;
+    color: #2c3338;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* 分析結果のサブテキスト */
+.praise-card-stats {
+    font-size: 0.95em;
+    color: #646970;
+    margin: 0;
+    background: #f6f7f7;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+/* シェアボタン（X/Twitterカラー） */
+.praise-share-btn {
+    align-self: flex-start;
+    background: #000000; /* 最新のXブランドカラー */
+    color: #ffffff !important;
+    padding: 10px 20px;
+    text-decoration: none !important;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: transform 0.2s, background 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.praise-share-btn:hover {
+    background: #333333;
+    transform: translateY(-2px);
+}
+
+/* 登場アニメーション */
+@keyframes slideIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
