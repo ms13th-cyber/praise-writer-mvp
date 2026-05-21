@@ -2,8 +2,8 @@
 /*
 Plugin Name: Praise Writer MVP
 Description: 日本語解析・演出・SNSシェアを備えた執筆支援プラグイン
-Version: 1.1
-Tested up to: 6.9.4
+Version: 1.1.1
+Tested up to: 7.0.0
 Requires PHP: 8.3.23
 Author: masato shibuya(Image-box Co., Ltd.)
 */

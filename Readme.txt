@@ -2,9 +2,9 @@
 Contributors: masato shibuya(Image-box Co., Ltd.)
 Tags: writing, motivation, analyze, japanese, seo
 Requires at least: 5.0
-Tested up to: 6.9
+Tested up to: 7.0.0
 Requires PHP: 8.0
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,6 +57,9 @@ WordPress標準の文字数カウント（mb_strlen）に基づいています�
 2. SNSシェアボタンからの投稿画面。
 
 == Changelog ==
+
+= 1.1.1 =
+* Wordpress7.0.0での動作確認。
 
 = 1.1 =
 * テキスト修正。
